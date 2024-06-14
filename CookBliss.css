@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden; 
+}
+
+h1 {
+font-weight: 600;
+}
+
+.main-head{
+background-color: #F9F9F9;
+margin-top: -10px;
+}
+
+
+.logo-cookbliss{
+    width: 45px;
+    height: 45px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.headerimg{
+width: 49px;
+height: 43px;
+margin-right: 12px;
+}
+
+.backgroundimg{
+    width: 100%; 
+    position: fixed;
+    left: 0; 
+    opacity: 0.8;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    overflow-y: auto;
+    height: 90vh;
+}
+
+.block{
+position: sticky;
+background-color: rgb(254, 247, 239);
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 4%;
+width: 80%;
+padding: 10px 50px 20px 50px;
+overflow-y: auto;
+height: 170vh;
+}
+
+
+nav {
+display: flex;
+font-size: 25px;
+min-height: 5vh;
+align-items: center;
+padding: 1rem;
+font-family: "Open Sans", sans-serif;
+}
+
+.photocafe{
+border-radius: 20px;
+height:450px;
+width: 650px;
+cursor: pointer;
+}
+
+h3{
+font-size: 30px;
+margin: 2px;
+}
+
+h4{
+font-size: 20px;
+}
+
+.eloiseimg{
+    height:63px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.heloisetext{
+    color:grey; 
+    font-size: 20px; 
+    margin-left: 20px;
+    margin-top: 36px;
+}
+
+.eloise-container{
+    display: flex;
+}
+.dejsainimg{
+    border-radius: 20px;
+    height:180px;
+    width: 200px;
+    cursor: pointer;
+}
+.articles_dej{
+margin-top: 40px;
+    display: flex;
+    margin-left: 15px;
+}
+.a-la-une{
+    display: flex;
+    margin-right: 15px;
+}
+
+.mieux-manger{
+    color: #ff6f61;
+    margin-left: 20px;
+    margin-top:0;
+    margin-bottom: 2px;
+}
+.article-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    margin-top:0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.articleimg{
+    margin-top: 12px;
+    height:55px;
+    width: 60px;
+    margin-left: 12px;
+}
+
+.entete{
+    display: flex;
+}
+.angetext{
+    color:grey; 
+    font-size: 20px; 
+    margin-left: 20px;
+    margin-top: 25px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex: 3 1 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cookblisstitle{
+    color: #E6853B;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 28px;
+    flex: 1 1;
+}
+.enteteelement {
+    margin: 10px 10px 10px 40px; 
+    cursor: pointer;
+}
+
+
+.searchbar {
+display: flex;
+flex: 2 1;
+font-family: "Open Sans", sans-serif;
+block-size: 40px;
+border: solid 0.4px rgb(112, 112, 112);
+padding: 8px 13px;
+border-radius: 20px;
+}
+
+
+.searchbar input {
+    font-size: 23px;
+    margin-left: 10px;
+    border: none;
+    width: 500px;
+   }
+
+
+.searchbar button{
+    border:none;
+    cursor: pointer;
+    background-color:  #F9F9F9;
+    }
+
+.loupeorange{
+    border-radius: 120px;
+    block-size: 40px;
+}
+
+.searchloop {
+    transform: scaleX(-1); 
+    block-size: 33px; 
+    margin-top: 3px; 
+}
+
+.terrinefraise {
+height: 650px;
+width: 400px;
+object-fit: cover;
+margin-right: 39px;
+border-radius: 40px;
+}
+
+.terrinefraise:not(:last-of-type){
+margin-right: none;
+}
